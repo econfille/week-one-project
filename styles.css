@@ -1,0 +1,45 @@
+
+#main-navigation{text-align: center;}
+
+#site-header{text-align: center;}
+
+.wrapper{text-align: center;}
+
+ul{list-style: none;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;}
+
+img.extralarge{width: 400px;
+               height: 250px;
+               padding: 10px;}
+
+img.large{width: 200px;
+          height: 130px;
+          padding: 10px;}
+
+img.medium{width: 120px;
+           height: 250px;
+          padding: 10px;}
+
+img.small{width: 150px;
+          height: 130px;
+          padding: 10px;}
+
+div{text-align: left;
+    padding: 10px;}
+
+li.div{}
+
+body{
+
+
+}
+
+h1{text-align: center;}
+
+li{
+
+
+}
