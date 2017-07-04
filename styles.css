@@ -1,45 +1,128 @@
 
-#main-navigation{text-align: center;}
-
-#site-header{text-align: center;}
-
-.wrapper{text-align: center;}
-
-ul{list-style: none;
-  padding: 5px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;}
-
-img.extralarge{width: 400px;
-               height: 250px;
-               padding: 10px;}
-
-img.large{width: 200px;
-          height: 130px;
-          padding: 10px;}
-
-img.medium{width: 120px;
-           height: 250px;
-          padding: 10px;}
-
-img.small{width: 150px;
-          height: 130px;
-          padding: 10px;}
-
-div{text-align: left;
-    padding: 10px;}
-
-li.div{}
-
-body{
-
-
+#main-navigation {
+   text-align: center;
+   background: white;
+   padding: 25px;
 }
 
-h1{text-align: center;}
+#site-header {
+   text-align: center;
+   display: block;
+}
 
-li{
+.wrapper {
+   text-align: center;
+   width: 1000px;
+}
 
+#site-footer {
+   background: darkolivegreen;
+   padding: 25px;
+   width: 1000px;
+   color: white;
+   font-weight: lighter;
+   font-size: 1em;
+   padding-left: 80px;
+}
 
+img.logo2 {
+   width: 50px;
+   height: 50px;
+   float: left;
+}
+
+div {
+   text-align: left;
+   padding: 10px;
+}
+
+body {
+  background-color: beige;
+}
+
+h1 {
+  text-align: center;
+}
+
+ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+ul {
+   display: flex;
+   flex-direction: row;
+   display: flex;
+   flex-wrap: wrap;
+}
+h3 {
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  background: darkolivegreen;
+  padding: 4px 8px;
+  color: white;
+  margin: 0;
+  font: 1px;
+  font-size: 1em;
+  font-weight: lighter;
+  border: thin solid;
+  border-color: darkolivegreen;
+}
+
+.product-1 {
+  background-image: url('images/optimized2/product-1.jpg');
+  height: 15em;
+  width: 30em;
+  float: left;
+  background-size: cover;
+  position: relative;
+}
+.product-2 {
+  background-image: url('images/optimized2/product-2.jpg');
+  height: 15em;
+  width: 11em;
+  float: left;
+  background-size: cover;
+  position: relative;
+}
+.product-3 {
+  background-image: url('images/optimized2/product-3.jpg');
+  height: 15em;
+  width: 11em;
+  float: left;
+  background-size: cover;
+  position: relative;
+}
+.product-4 {
+  background-image: url('images/optimized2/product-4.jpg');
+  height: 10em;
+  width: 10em;
+  float: left;
+  background-size: cover;
+  position: relative;
+}
+.product-5 {
+  background-image: url('images/optimized2/product-5.jpg');
+  height: 10em;
+  width: 10em;
+  float: left;
+  background-size: cover;
+  position: relative;
+}
+.product-6 {
+  background-image: url('images/optimized2/product-6.jpg');
+  height: 10em;
+  width: 20em;
+  float: left;
+  background-size: cover;
+  position: relative;
+}
+.product-7 {
+  background-image: url('images/optimized2/product-7.jpg');
+  height: 10em;
+  width: 10em;
+  float: left;
+  background-size: cover;
+  position: relative;
 }
