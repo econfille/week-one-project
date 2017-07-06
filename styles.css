@@ -3,22 +3,34 @@
    text-align: center;
    background: white;
    padding: 25px;
+   padding-right: 8%;
+   font-family: 'Roboto', sans-serif;
+   width: 100%;
+   color: #968772;
+}
+
+#main-navigation a {
+   
+
+
+
 }
 
 #site-header {
    text-align: center;
    display: block;
+   font-family: 'Merriweather', serif;
 }
 
 .wrapper {
    text-align: center;
-   width: 1000px;
+   width: 100%;
 }
 
 #site-footer {
    background: darkolivegreen;
    padding: 25px;
-   width: 1000px;
+   width: 100%;
    color: white;
    font-weight: lighter;
    font-size: 1em;
@@ -29,19 +41,27 @@ img.logo2 {
    width: 50px;
    height: 50px;
    float: left;
+   padding-bottom: 35%;
 }
 
-div {
-   text-align: left;
-   padding: 10px;
-}
 
 body {
   background-color: beige;
+  margin: 0;
 }
 
 h1 {
   text-align: center;
+  color: #2B2F26;
+  font-size: 3em;
+  margin: 0;
+  padding-top: 25px;
+}
+
+h2 {
+  color: #2B2F26;
+  font-family: 'Merriweather', serif;
+  margin: 0;
 }
 
 ul li {
@@ -70,10 +90,24 @@ h3 {
   border-color: darkolivegreen;
 }
 
+.flex-basis-1 {
+  flex-basis: 15%;
+  padding:.5em;
+}
+.flex-basis-2 {
+  flex-basis: 39%;
+  padding:.5em;
+}
+.flex-basis-3 {
+  flex-basis: 56%;
+  padding:.5em;
+}
+
+
 .product-1 {
   background-image: url('images/optimized2/product-1.jpg');
   height: 15em;
-  width: 30em;
+  width: 100%;
   float: left;
   background-size: cover;
   position: relative;
@@ -81,7 +115,7 @@ h3 {
 .product-2 {
   background-image: url('images/optimized2/product-2.jpg');
   height: 15em;
-  width: 11em;
+  width: 100%;
   float: left;
   background-size: cover;
   position: relative;
@@ -89,7 +123,7 @@ h3 {
 .product-3 {
   background-image: url('images/optimized2/product-3.jpg');
   height: 15em;
-  width: 11em;
+  width: 100%;
   float: left;
   background-size: cover;
   position: relative;
@@ -97,7 +131,7 @@ h3 {
 .product-4 {
   background-image: url('images/optimized2/product-4.jpg');
   height: 10em;
-  width: 10em;
+  width: 100%;
   float: left;
   background-size: cover;
   position: relative;
@@ -105,7 +139,7 @@ h3 {
 .product-5 {
   background-image: url('images/optimized2/product-5.jpg');
   height: 10em;
-  width: 10em;
+  width: 100%;
   float: left;
   background-size: cover;
   position: relative;
@@ -113,7 +147,7 @@ h3 {
 .product-6 {
   background-image: url('images/optimized2/product-6.jpg');
   height: 10em;
-  width: 20em;
+  width: 100%;
   float: left;
   background-size: cover;
   position: relative;
@@ -121,7 +155,7 @@ h3 {
 .product-7 {
   background-image: url('images/optimized2/product-7.jpg');
   height: 10em;
-  width: 10em;
+  width: 100%;
   float: left;
   background-size: cover;
   position: relative;
